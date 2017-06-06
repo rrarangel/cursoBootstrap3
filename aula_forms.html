@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <Title>Curso Bootstrap</Title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta charset="utf-8"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+    <link href="css/estilo.css" rel=stylesheet media="screen">
+ </head>
+    <body>
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="nome" class="col-xs-2 control-label">Nome Completo:</label>
+                                <div class="col-xs-10">
+                                    <input type="text" class="form-control" id="nome" />
+                                </div>
+                            </div>
+                        
+                         <div class="form-group">
+                            <label for="tipo" class="col-xs-2 control-label">Tipo:</label>
+                                <div class="col-xs-10">
+                                 <select class="form-control">
+                                    <option>Pessoa Física</option>
+                                    <option>Pessoa Jurídica</option>
+                                 </select>
+                                </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tipo" class="col-xs-2 control-label">Selecione:</label>
+                            <div class="col-xs-10">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id1" value="1">1
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id1" value="1">2
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="id1" value="1">3
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                             <div class="col-xs-offset-2 col-xs-10">
+                                 <button type="submit" class="btn btn-default">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+         
+  
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
