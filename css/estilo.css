@@ -1,0 +1,10 @@
+.linhaCinza{
+    background:gray;
+}
+.linhaAzul{
+    background:blue;
+}
+
+.bg-color-padding p{
+    padding:15px;
+}
