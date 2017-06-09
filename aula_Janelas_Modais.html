@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <Title>Curso Bootstrap</Title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta charset="utf-8"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all"> 
+    <link href="css/estilo.css" rel=stylesheet media="all">
+ </head>
+    <body>
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>Janelas Modais</h1>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mod01">Abrir janela</button>
+                    
+    <!---janela modal-->  
+                    <div class="modal fade" id="mod01" role="dialog" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                    <h4 class="modal-title">Janela Modal</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Conteudo da janela modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    Rodapé da janela modal
+                                    <button type="button" class="btn btn-primary">OK</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+    <!--- fim janela modal-->                
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    <!--##### bootstrap ###########################################-->    
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    
+    </body>
+
+</html>

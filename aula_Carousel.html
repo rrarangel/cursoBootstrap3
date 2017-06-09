@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <Title>Curso Bootstrap</Title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta charset="utf-8"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all"> 
+    <link href="css/estilo.css" rel=stylesheet media="all">
+ </head>
+    <body>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+               
+                <div class="carousel slide" id="carousel01" data-ride="carousel">
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel01" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel01" data-slide-to="1"></li>
+                        <li data-target="#carousel01" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="imgs/catsSlider/01-cat-wants-to-tell-you-laptop.jpg" alt="foto gato 1">
+                            <div class="carousel-caption">
+                                <h3>Titulo da imagem</h3>
+                                <p>Descrição referente a imagem</p>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <img src="imgs/catsSlider/funny-karate-cat.jpg" alt="foto gato 2">
+                        </div>
+                        
+                        <div class="item">
+                            <img src="imgs/catsSlider/stressed-cat-1024x576.jpg" alt="foto gato 3">
+                        </div>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#carousel01" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel01" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        
+        
+    <!--##### bootstrap ###########################################-->    
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    
+    </body>
+
+</html>

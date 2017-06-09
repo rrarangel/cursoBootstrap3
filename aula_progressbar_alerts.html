@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <Title>Curso Bootstrap</Title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta charset="utf-8"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all"> 
+    <link href="css/estilo.css" rel=stylesheet media="all">
+ </head>
+    <body>
+      
+     <div class="container">
+        <div class="row">
+         <div class="col-xs-12">
+            <div class="page-header">
+                <h1>Alerts <small>Elementos alerts</small></h1>
+             </div>
+             <div class="alert alert-success">Cadastro realizado com sucesso!</div>
+             <div class="alert alert-info">Atenção ao preencher os campos!</div>
+             <div class="alert alert-warning">Cuidado existem campos não preenchidos!</div>
+             <div class="alert alert-danger">Favor preencher todos os campos requeridos!</div>
+            
+            <h3>Alerts dismissible</h3>
+             <div class="alert alert-danger alert-dismissible"> 
+                 <button type="button" class="close" data-dismiss="alert">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+                 
+                 <strong>Você</strong> não preencheu todos os campos <a href="#" class="alert-link">corretamente</a>
+             </div>
+            </div>
+         </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header"><h1>Progressbar <small>Elementos progressbar</small></h1></div>
+                    
+                    <div class="progress">
+                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span>60%</span>
+                        </div>
+                    </div>
+                   
+                    <div class="progress">
+                       <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span>60%</span>
+                        </div>
+                    </div>
+                    
+                     <div class="progress">
+                       <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                        <span>60%</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+  
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
