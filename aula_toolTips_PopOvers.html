@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <Title>Curso Bootstrap</Title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta charset="utf-8"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+    <link href="css/estilo.css" rel=stylesheet media="screen">
+ </head>
+    <body>
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <div class="page-header">
+                        <h1>Tooltips <small>Elemento tooltip</small></h1>
+                    </div>
+                    
+                   <button type="button" class="btn btn-default tooltip1" data-toggle="tooltip" data-placement="left" title="Tooltip 01 left">Tooltip 1 - Left</button>
+                    
+                    <button type="button" class="btn btn-default tooltip1" data-toggle="tooltip" data-placement="top" title="Tooltip 01 top">Tooltip 1 - Top</button>
+                    
+                    <button type="button" class="btn btn-primary tooltip1" data-toggle="tooltip" data-placement="right" title="Tooltip 01 right">Tooltip 1 - Right</button>
+                    
+                    <button type="button" class="btn btn-default tooltip1" data-toggle="tooltip" data-placement="bottom">Tooltip 1 - botton</button>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+         <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+                    <div class="page-header">
+                        <h1>PopOvers <small>Elemento PopOver</small></h1>
+                    </div>
+                    
+                   <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="left" data-content="Contneudo do popover" data-container="body">Tooltip 1 - Left</button>
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="top" data-content="Contneudo do popover" data-container="body">Tooltip 1 - Top</button>
+                    
+                    <button type="button" class="btn btn-primary ppv" data-toggle="popover" data-placement="right" data-content="Contneudo do popover" data-container="body">Tooltip 1 - Right</button>
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="bottom" data-content="Contneudo do popover" data-container="body" title="Titulo através do HTML">Tooltip 1 - botton</button>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+         
+  
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

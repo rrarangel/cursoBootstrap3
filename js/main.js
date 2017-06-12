@@ -12,4 +12,16 @@ $(function(){
     setTimeout(function(){ 
                $("#mod01").modal("hide")},3000);
     
+    $(".tooltip1").tooltip({
+        animation:false,
+        //delay : {show: 100, hide:2000},
+        title: "Titulo padrão",
+        //trigger : "over"
+    });
+    
+    $(".ppv").popover({
+        title: "Titulo do PopOver",
+        trigger: 'hover focus'
+    });
+    
 });
