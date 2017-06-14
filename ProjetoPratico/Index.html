@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".menu-navegacao" data-offeset="90">
    
       <!--MENU NAVEGAÇÃO-->
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -30,23 +30,23 @@
                     <a class="navbar-brand" href="#page-top">Devmedia.com</a>
                 </div>
                 
-                <div class="collapse navbar-collapse" id="menu-navegacao">
+                <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#page-top"></a></li>
                         
-                        <li><a class="" href="#servicos">Serviços</a>
+                        <li><a class="scrollSuave" href="#servicos">Serviços</a>
                         
                         </li>
-                        <li><a class="" href="#servicos">Portifolio</a>
+                        <li><a class="scrollSuave" href="#portifolio">Portifolio</a>
                         
                         </li>
-                        <li><a class="" href="#servicos">Quem somos</a>
+                        <li><a class="scrollSuave" href="#quemsomos">Quem somos</a>
                         
                         </li>
-                        <li><a class="" href="#servicos">Localização</a>
+                        <li><a class="scrollSuave" href="#localizacao">Localização</a>
                         
                         </li>
-                        <li><a class="" href="#servicos">Contato</a>
+                        <li><a class="scrollSuave" href="#contato">Contato</a>
                         
                         </li>
                     </ul>
@@ -58,47 +58,111 @@
       
       
 <!--SLIDER-->
+      <div class="divslider">
+          <div class="container">
+              <div class="col-xs-12">
+        <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+          
+            <ol class="carousel-indicators">
+                <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                <li data-target="#sliderprincipal" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                
+                <div class="item active">
+                    <img src="imgs/Slider2/img0101.png" alt="primeira imagem">
+                </div>
+                <div class="item">
+                    <img src="imgs/Slider2/img0102.png" alt="segunda imagem">
+                </div>
+                <div class="item">
+                    <img src="imgs/Slider2/img0103.png" alt="terceira imagem">
+              </div>
+                
+          </div>
+            
+            <!--Indicadores direita e esquerda-->
+            <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">esquerda</span>
+            </a>
+            <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">direita</span>
+            </a>
+            
+        </div>
+      </div>
+    </div>
+  </div>
 <!--//SLIDER-->
 
 
 <!--SERVICOS-->
-      <div id="servicos">
-        <h1>Serviços</h1>
-      </div>
+      <section id="servicos">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header"><h1>Serviços <small>Conheça nossos serviços</small></h1></div>
+            </div>
+        </div>
+      </section>
 <!--//SERVICOS-->
 
 
 <!--POTIFOLIO-->
-      <div id="portifolio">
-        <h1>Portifolio</h1>
-      </div>
+      <section id="portifolio" class="divBackGroundr">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header"><h1>Potifolio <small></small></h1></div>
+            </div>    
+        </div>
+      </section>
 <!--//PORTIFOLIO-->
 
       
 <!--QUEM SOMOS-->
-      <div id="quemsomos">
-        <h1>Quem somos</h1>
-      </div>
+      <section id="quemsomos">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header"><h1>Quem somos <small>Conheça nossa história</small></h1></div>
+            </div>
+        </div>
+      </section>
 <!--//QUEM SOMOS-->
       
       
 <!--LOCALIZAÇÃO-->
-      <div id="localizacao">
-        <h1>Localização</h1>
-      </div>
+      <section id="localizacao" class="divBackGroundr">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header"><h1>Localização<small></small></h1></div>
+            </div>
+        </div>
+      </section>
 <!--//LOCALIZAÇÃO-->
 
       
 <!--CONTATO-->
-      <div id="contato">
-        <h1>contato</h1>
-      </div>
+      <section id="contato">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header"><h1>Contato <small></small></h1></div>
+            </div>
+        </div>
+      </section>
 <!--//CONTATO-->
+
+<footer>
+Rodapé da página
+</footer>
+      
       
       
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
