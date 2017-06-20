@@ -13,6 +13,17 @@ section{
     min-height: 100vh;
 }
 
+.grayScale{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.grayScale:hover{
+   -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+   filter: grayscale(0%);
+}
+
+
 
 .navbar-brand {
   font-weight: 700;  
@@ -30,4 +41,18 @@ section{
 
 .scrollSuave{
     
+}
+
+.btnTodosServicos{
+    margin-top: 25px;
+}
+
+.portfolio_item{
+    background: white;
+}
+
+.portfolio_item h4{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
