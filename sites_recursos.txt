@@ -1,2 +1,4 @@
 subtlepatterns.com - site de texturas e fundos.
 http://fontawesome.io/ - Icons
+startbootstrap.com - Templates
+https://bootswatch.com - Temas Bootstrap
